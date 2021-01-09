@@ -1,0 +1,1550 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+/*Global Styles*/
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Julius Sans One', sans-serif;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #EB1C24;
+    --body-font-color: #515151;
+}
+
+html {
+    font-family: var(--body-font);
+    font-size: 10px;
+    color: var(--body-font-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 3.9rem 0;
+    overflow: hidden;
+}
+
+
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+
+/*Isakaya & Sushi-Sashimi ID flex*/
+#isakaya-sushi-sashimi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -2%;
+
+
+}
+
+
+/*Sushi-Combo & Dinner-Combo ID flex*/
+#sushi-dinner-combo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/*Bowls & Udon ID flex*/
+#bowls-udon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+/*Menu Group - 1 ID flex*/
+#menu-group-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: -12.5%;
+
+}
+
+/*Isakaya Section*/
+
+.container-isakaya {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+
+}
+
+
+.menu-isakaya ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.menu-isakaya ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.7px;
+    opacity: 0.55;
+}
+
+.menu-isakaya ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    opacity: 0.55;
+}
+
+.menu-isakaya li,
+.menu-isakaya h5,
+.menu-isakaya p {
+    margin: 2px;
+}
+
+
+/*Salad Section */
+.container-salad {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-salad ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.menu-salad ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.7px;
+    opacity: 0.55;
+}
+
+.menu-salad ul li h5 p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    opacity: 1;
+}
+
+.menu-salad li,
+.menu-salad h5,
+.menu-salad p {
+    margin: 2px;
+}
+
+
+/*Sushi-Sashimi-Section*/
+.container-sushi-sashimi {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.menu-sushi-sashimi ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-sushi-sashimi ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-sushi-sashimi ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+
+.menu-sushi-sashimi li,
+.menu-sushi-sashimi h5,
+.menu-sushi-sashimi p {
+    margin: 1.3rem;
+}
+
+.sushi-sashimi-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+    flex-wrap: wrap;
+}
+
+/*Basic-Maki-Section*/
+.container-basic-maki {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-basic-maki ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-basic-maki ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-basic-maki ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+
+.menu-basic-maki li,
+.menu-basic-maki h5,
+.menu-basic-maki p {
+    margin: 2px;
+}
+
+.basic-maki-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: center;
+    flex-wrap: wrap;
+}
+
+
+/*Special-Roll-Section*/
+.container-special-roll {
+    width: 100%;
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+
+
+}
+
+.special-roll-list {
+    left: 20%;
+}
+
+.menu-special-roll ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.menu-special-roll ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.7px;
+    opacity: 0.55;
+}
+
+.menu-special-roll ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.menu-special-roll li,
+.menu-special-roll h5,
+.menu-special-roll p {
+    margin: 2px;
+}
+
+.menu-special-roll li {
+    margin-bottom: 10px;
+}
+
+.special-roll-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: center;
+
+
+}
+
+/*Sashimi-Special-Section*/
+
+.container-sashimi-special {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+.menu-sashimi-special ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.menu-sashimi-special ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.7px;
+    opacity: 0.55;
+}
+
+.menu-sashimi-special ul li h5 p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    opacity: 1;
+}
+
+.menu-sashimi-special li,
+.menu-sashimi-special h5,
+.menu-sashimi-special p {
+    margin: 0.3rem;
+}
+
+
+/*Sushi-Combo*/
+
+.container-sushi-combo {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-sushi-combo ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu-sushi-combo ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-sushi-combo ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0.55;
+    font-weight: 400;
+}
+
+.menu-sushi-combo li,
+.menu-sushi-combo h5,
+.menu-sushi-combo p {
+    margin: 0.3rem;
+}
+
+
+/*Dinner-Combo*/
+.container-dinner-combo {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-dinner-combo ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-dinner-combo ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-dinner-combo ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0.55;
+    font-weight: 400;
+}
+
+.menu-dinner-combo li,
+.menu-dinner-combo p {
+    margin: 1.7rem;
+}
+
+.menu-dinner-combo h5 {
+    margin: 0.85rem;
+
+}
+
+.discover-our-story-dinner-combo {
+    margin-top: -12.5%;
+}
+
+
+/*Bowls*/
+
+.container-bowls {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-bowls ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu-bowls ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-bowls ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0.65;
+}
+
+.menu-bowls li,
+.menu-bowls h5,
+.menu-bowls p {
+    margin: 0.25rem;
+}
+
+.bowls-list {
+    display: flex;
+    align-items: space-between;
+}
+
+.bowls-list-1,
+.bowls-list-2 {
+    margin-top: -30px;
+}
+
+
+
+/*Udon*/
+
+.container-udon {
+    width: 100%;
+    max-width: 122.5rem;
+    /*height: 100vh;*/
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-udon ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-udon ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-udon ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0.95;
+}
+
+.menu-udon li,
+.menu-udon h5,
+.menu-udon p {
+    margin: 0.7rem;
+}
+
+.discover-our-story-udon {
+    margin-top: -12.5%;
+}
+
+.udon-notice {
+    opacity: 5;
+    padding-top: 1%;
+}
+
+/*Lunch Special*/
+.container-lunch-special {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+
+.menu-lunch-special ul li {
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-lunch-special ul h5 {
+    color: var(--main-font-color-dark);
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity: 0.65;
+}
+
+.menu-lunch-special ul p {
+    color: var(--body-font-color);
+    font-family: var(--main-font);
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+
+.menu-lunch-special li,
+.menu-lunch-special h5,
+.menu-lunch-special p {
+    margin: 2px;
+
+}
+
+.lunch-special-list-1 li,
+.lunch-special-list-1 h5,
+.lunch-special-list-1 p {
+    padding-bottom: 7px;
+}
+
+.lunch-special-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+    flex-wrap: wrap;
+
+}
+
+
+.lunch-notice {
+    opacity: 5;
+    padding-top: 1%;
+}
+
+
+/*header*/
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.nav {
+    height: 7.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-toggle {
+    color: #fff;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2.5rem;
+    cursor: pointer;
+    z-index: 1500;
+
+
+}
+
+.fa-times {
+    display: none;
+}
+
+.nav-list {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--main-font-color-dark);
+    padding: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1250;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+
+
+
+}
+
+.nav::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.5s;
+
+
+
+
+
+}
+
+.open .fa-times {
+    display: block;
+}
+
+.open .fa-bars {
+    display: none;
+}
+
+.open .nav-list {
+    transform: translateX(0);
+
+}
+
+.open .nav::before {
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.nav-item {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.nav-link {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    transition: color 0.5s;
+
+
+}
+
+.nav-link:hover {
+    color: var(--secondary-font-color);
+}
+
+.container .logo-ai {
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    border-bottom: 2.2px solid #fff;
+    font-weight: 650;
+    text-transform: uppercase;
+    display: inline;
+
+}
+
+.container .logo-ai:hover {
+    color: #fff;
+    border-bottom: 2.2px solid var(--body-font-color);
+    transition: ease-in 0.4s;
+}
+
+/*Hero*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/side-images/menu-main-2.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sub-headline {
+    font-size: 8rem;
+    margin-bottom: 1.3rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 200;
+    line-height: 0.4;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
+    padding-bottom: 10px;
+
+
+}
+
+.sub-headline-maki {
+    padding-right: 3.5%;
+}
+
+
+.first-letter {
+    text-transform: uppercase;
+    font-size: 10.3rem;
+    font-weight: 100;
+
+}
+
+.headline {
+    color: #fff;
+    font-size: 2rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    margin-right: -0.5rem;
+    animation: scale .5s forwards;
+    opacity: 0.5;
+
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line {
+    width: 100%;
+    max-width: 8.4rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+    opacity: 0;
+    animation: grow 2s forwards;
+    animation-delay: .9s;
+}
+
+.line-right::before,
+.line-left::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: .6rem solid transparent;
+    opacity: 0;
+    animation: grow .5s forwards;
+    animation-delay: 1.2s;
+
+}
+
+.line-right::before {
+    border-right-color: #fff;
+    right: 0;
+}
+
+.line-left::before {
+    border-left-color: #fff;
+    left: 0;
+}
+
+.asterisk {
+    font-size: 1.2rem;
+    color: var(--secondary-font-color);
+    margin: 0 1.6rem;
+    opacity: 0;
+    animation: spin .5s forwards;
+    animation-delay: .7s;
+}
+
+
+.single-animation {
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1.5s;
+
+}
+
+
+.headline-description h5 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 10px;
+    margin-right: -10px;
+
+
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+
+}
+
+.cta-btn {
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: .4rem;
+    transition: background-color .5s;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+    color: #fff;
+    background-color: var(--secondary-font-color);
+}
+
+/*Discover Our Story*/
+.global-headline {
+    text-align: center;
+    margin-top: 3.9rem;
+
+}
+
+.discover-our-story .global-headline,
+.discover-our-menu .global-headline {
+    margin-top: 6.9rem;
+}
+
+.discover-our-jose {
+    margin-bottom: 3rem;
+}
+
+.global-headline .asterisk {
+    color: var(--body-font-color);
+    margin: 2.4rem 0;
+}
+
+
+.headline-dark {
+    color: var(--main-font-color-dark);
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+    border-top: 1.5px solid var(--main-font-color-dark);
+    padding-top: 13px;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.global-headline .sub-headline {
+    letter-spacing: -1px;
+    line-height: .42;
+
+}
+
+.restaurant-info {
+    text-align: center;
+    background-size: cover;
+
+}
+
+.simple-image {
+    margin-left: 23%;
+}
+
+
+.restaurant-info img {
+    width: 80%;
+}
+
+
+
+
+.restaurant-description {
+    margin-bottom: 3rem;
+}
+
+.restaurant-description p {
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+
+.body-btn {
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+    position: relative;
+    transition: color .5s;
+}
+
+.body-btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--secondary-font-color);
+    transition: background-color .5s;
+}
+
+.body-btn:hover,
+.body-btn:focus {
+    color: var(--main-font-color-dark);
+
+}
+
+.body-btn:hover::before,
+.body-btn:focus::before {
+    background-color: var(--main-font-color-dark);
+}
+
+
+/*Footer*/
+footer {
+    padding: 7.9rem 0;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.back-to-top {
+    width: 6rem;
+    height: 7rem;
+    background-color: #121212;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.back-to-top i {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    animation: up 2s infinite;
+}
+
+.footer-content {
+    overflow: hidden;
+}
+
+.footer-content h4 {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+
+
+.footer-content .asterisk {
+    margin: 2.4rem 0;
+}
+
+.footer-content-about {
+    margin-bottom: 5.4rem;
+}
+
+.footer-content-about p {
+    line-height: 2;
+}
+
+.social-icons {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons i {
+    font-size: 2rem;
+    color: #fff;
+    padding: .8rem 2rem;
+    opacity: .5;
+    transition: color .5s;
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-address,
+.footer-address-1 {
+    color: var(--secondary-font-color);
+    margin-top: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.footer-address a,
+.footer-address-1 a {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+
+}
+
+
+
+.footer-list {
+    list-style: none;
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+
+/*media queries*/
+/*Media Screen Height*/
+@media screen and (min-width: 900px) {
+    section {
+        padding: 7.9rem;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .nav-list {
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        padding: 0;
+        flex-direction: row;
+        transform: initial;
+        transition: initial;
+
+    }
+
+    .nav-item {
+        margin: 0 2.4rem;
+        bottom: none;
+    }
+
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .active {
+        position: relative;
+    }
+
+    .active:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+        bottom: -3px;
+    }
+
+    .sub-headline {
+        font-size: 8rem;
+    }
+
+    .first-letter {
+        font-size: 12.2rem;
+    }
+
+    .line {
+        max-width: 11.4rem;
+    }
+
+    .restaurant-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .restaurant-info>div {
+        flex: 1;
+    }
+
+    .padding-right {
+        padding-right: 7rem;
+    }
+
+    .footer-content {
+        max-width: 77.5rem;
+        margin: auto;
+    }
+
+    .footer-content-about {
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
+
+    .footer-content-divider {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media,
+    .newsletter-form {
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
+    .social-icons i {
+        opacity: 1;
+    }
+
+    .newsletter-btn {
+        margin-left: 7.5rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1710px) {
+
+   .special-roll-list{
+    flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width: 1372px){
+
+    #menu-group-1{
+        flex-wrap: wrap;
+    }
+
+    .container-udon{
+        height: 65vh;
+    }
+
+    .container-dinner-combo{
+       /* height: 45vh;*/
+        padding-bottom: -15%;
+    }
+
+    .container-bowls{
+        /*height: 50vh;*/
+        margin-top: -15%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1227px) {
+
+    #sushi-dinner-combo {
+        margin-left: -5%;
+    }
+
+    .container-sushi-combo {
+        margin-bottom: 5%;
+    }
+
+    .container-bowls {
+        margin-bottom: 5%;
+    }
+
+
+
+   .container-sushi-sashimi{
+        margin-top: -15%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1171px) {
+
+    .sub-headline {
+        font-size: 8rem;
+    }
+
+    .first-letter {
+        font-size: 12rem;
+    }
+
+    .sub-headline-dining {
+        font-size: 9rem;
+    }
+
+    .first-letter-d,
+    .first-letter-t .first-letter-p {
+        font-size: 12rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1086px) {
+
+    .sub-headline {
+        font-size: 7rem;
+    }
+
+    .first-letter {
+        font-size: 10rem;
+    }
+
+    .sub-headline-dining {
+        font-size: 7rem;
+    }
+
+    .first-letter-d,
+    .first-letter-t .first-letter-p {
+        font-size: 10rem;
+    }
+
+    .restaurant-info img {
+        width: 100%;
+    }
+
+    .chef-hector-description {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1299){
+    .oscar-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .jose-info {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 899px) {
+
+    .sub-headline {
+        font-size: 4rem;
+    }
+
+    .first-letter {
+        font-size: 5rem;
+    }
+
+    .sub-headline-dining {
+        font-size: 4rem;
+    }
+
+    .dining,
+    .tasteful {
+        margin-top: 3rem;
+    }
+
+    .restaurant-info img {
+        width: 40%;
+    }
+
+    .chef-hector {
+        margin-left: 0rem;
+    }
+
+    .simple-image {
+        margin-left: 0%;
+    }
+
+
+
+    .oscar-info {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .jose-info {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10rem;
+    }
+
+
+    .container-bowls{
+        margin-top: 3%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 580px){
+    .bowls-list{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width: 351px){
+    .sashimi-special{
+        padding: 10%;
+    }
+
+    .lunch-special{
+        padding: 10%;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    .sub-headline-sushi-sashimi{
+        font-size: 3rem;
+    }
+
+    .first-letter-sushi-sashimi-1,
+    .first-letter-sushi-sashimi-2{
+        font-size: 4rem;
+    }
+
+}
+
+
+/*Media Screen Height*/
+@media screen and (max-height: 655px){
+    .container-udon{
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-height: 1440px){
+
+
+    #isakaya-sushi-sashimi{
+        flex-direction: column;
+    }
+
+
+}
+
+
+/*Animations*/
+@keyframes fadeUp {
+    0% {
+        transform: translateY(4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes scale {
+    0% {
+        transform: scale(2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes grow {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        opacity: 1;
+        width: 100%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes fadeDown {
+    0% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+}
